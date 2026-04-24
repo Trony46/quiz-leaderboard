@@ -22,5 +22,5 @@ A Spring Boot application that polls a quiz API 10 times, deduplicates score eve
 src/main/java/com/quiz/leaderboard/
 ├── QuizLeaderboardApplication.java   → entry point
 ├── model/                            → POJO classes matching API JSON
-├── service/QuizService.java          → all logic lives here
-└── runner/QuizRunner.java            → runs on startup, calls service
+├── QuizService.java          → all logic lives here
+└── QuizRunner.java            → runs on startup, calls service
