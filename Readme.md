@@ -5,10 +5,8 @@ A Spring Boot application that polls a quiz API 10 times, deduplicates score eve
 ## How to Run
 
 1. Open the project in IntelliJ
-2. Change `regNo` in `QuizService.java` to your registration number
-3. Run `QuizLeaderboardApplication.java`
-4. Wait ~50 seconds for all 10 polls to complete
-5. Check console for `isCorrect: true`
+2. Run `QuizLeaderboardApplication.java`
+3. Wait ~50 seconds for all 10 polls to complete
 
 ## How It Works
 
